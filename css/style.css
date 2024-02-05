@@ -8,11 +8,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     min-height: 100vh;
     font-family: sans-serif;
 
-    background-color: plum;
+    background-color: rgb(44, 39, 39);
     position: relative;
 }
 
@@ -47,7 +48,7 @@ body{
 }
 
 h1{
-    color:green ;
+    color:rgb(255, 255, 255) ;
     margin-bottom: 32px;
     font-size: 80px;
 
@@ -82,4 +83,14 @@ h1{
 }
 #pikachu{
     display: none;
+    right: 600px;
+    top: 330px;
+}
+
+#charmander{
+    display: none;
+    width: 65px;
+    right: 175px;
+    top: 55px;
+
 }
